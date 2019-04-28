@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1F0264227541FB0023AE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F0263227541FB0023AE25 /* AppDelegate.swift */; };
+		EE1F0266227541FB0023AE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F0265227541FB0023AE25 /* ViewController.swift */; };
+		EE1F0269227541FB0023AE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F0267227541FB0023AE25 /* Main.storyboard */; };
+		EE1F026B227541FC0023AE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F026A227541FC0023AE25 /* Assets.xcassets */; };
+		EE1F026E227541FC0023AE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F026C227541FC0023AE25 /* LaunchScreen.storyboard */; };
+		EE1F0279227541FD0023AE25 /* aws_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F0278227541FD0023AE25 /* aws_sampleTests.swift */; };
+		EE1F0284227541FD0023AE25 /* aws_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F0283227541FD0023AE25 /* aws_sampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE1F0275227541FD0023AE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1F0258227541FB0023AE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1F025F227541FB0023AE25;
+			remoteInfo = "aws-sample";
+		};
+		EE1F0280227541FD0023AE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1F0258227541FB0023AE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1F025F227541FB0023AE25;
+			remoteInfo = "aws-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1F0260227541FB0023AE25 /* aws-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aws-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F0263227541FB0023AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE1F0265227541FB0023AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1F0268227541FB0023AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1F026A227541FC0023AE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1F026D227541FC0023AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1F026F227541FC0023AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1F0274227541FD0023AE25 /* aws-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F0278227541FD0023AE25 /* aws_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_sampleTests.swift; sourceTree = "<group>"; };
+		EE1F027A227541FD0023AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1F027F227541FD0023AE25 /* aws-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aws-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F0283227541FD0023AE25 /* aws_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws_sampleUITests.swift; sourceTree = "<group>"; };
+		EE1F0285227541FD0023AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1F025D227541FB0023AE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F0271227541FD0023AE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F027C227541FD0023AE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1F0257227541FB0023AE25 = {
+			isa = PBXGroup;
+			children = (
+				EE1F0262227541FB0023AE25 /* aws-sample */,
+				EE1F0277227541FD0023AE25 /* aws-sampleTests */,
+				EE1F0282227541FD0023AE25 /* aws-sampleUITests */,
+				EE1F0261227541FB0023AE25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1F0261227541FB0023AE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F0260227541FB0023AE25 /* aws-sample.app */,
+				EE1F0274227541FD0023AE25 /* aws-sampleTests.xctest */,
+				EE1F027F227541FD0023AE25 /* aws-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1F0262227541FB0023AE25 /* aws-sample */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F0263227541FB0023AE25 /* AppDelegate.swift */,
+				EE1F0265227541FB0023AE25 /* ViewController.swift */,
+				EE1F0267227541FB0023AE25 /* Main.storyboard */,
+				EE1F026A227541FC0023AE25 /* Assets.xcassets */,
+				EE1F026C227541FC0023AE25 /* LaunchScreen.storyboard */,
+				EE1F026F227541FC0023AE25 /* Info.plist */,
+			);
+			path = "aws-sample";
+			sourceTree = "<group>";
+		};
+		EE1F0277227541FD0023AE25 /* aws-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F0278227541FD0023AE25 /* aws_sampleTests.swift */,
+				EE1F027A227541FD0023AE25 /* Info.plist */,
+			);
+			path = "aws-sampleTests";
+			sourceTree = "<group>";
+		};
+		EE1F0282227541FD0023AE25 /* aws-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F0283227541FD0023AE25 /* aws_sampleUITests.swift */,
+				EE1F0285227541FD0023AE25 /* Info.plist */,
+			);
+			path = "aws-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1F025F227541FB0023AE25 /* aws-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F0288227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sample" */;
+			buildPhases = (
+				EE1F025C227541FB0023AE25 /* Sources */,
+				EE1F025D227541FB0023AE25 /* Frameworks */,
+				EE1F025E227541FB0023AE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aws-sample";
+			productName = "aws-sample";
+			productReference = EE1F0260227541FB0023AE25 /* aws-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1F0273227541FD0023AE25 /* aws-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F028B227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sampleTests" */;
+			buildPhases = (
+				EE1F0270227541FD0023AE25 /* Sources */,
+				EE1F0271227541FD0023AE25 /* Frameworks */,
+				EE1F0272227541FD0023AE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1F0276227541FD0023AE25 /* PBXTargetDependency */,
+			);
+			name = "aws-sampleTests";
+			productName = "aws-sampleTests";
+			productReference = EE1F0274227541FD0023AE25 /* aws-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE1F027E227541FD0023AE25 /* aws-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F028E227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sampleUITests" */;
+			buildPhases = (
+				EE1F027B227541FD0023AE25 /* Sources */,
+				EE1F027C227541FD0023AE25 /* Frameworks */,
+				EE1F027D227541FD0023AE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1F0281227541FD0023AE25 /* PBXTargetDependency */,
+			);
+			name = "aws-sampleUITests";
+			productName = "aws-sampleUITests";
+			productReference = EE1F027F227541FD0023AE25 /* aws-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1F0258227541FB0023AE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = twentiethfloor;
+				TargetAttributes = {
+					EE1F025F227541FB0023AE25 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE1F0273227541FD0023AE25 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE1F025F227541FB0023AE25;
+					};
+					EE1F027E227541FD0023AE25 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE1F025F227541FB0023AE25;
+					};
+				};
+			};
+			buildConfigurationList = EE1F025B227541FB0023AE25 /* Build configuration list for PBXProject "aws-sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1F0257227541FB0023AE25;
+			productRefGroup = EE1F0261227541FB0023AE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1F025F227541FB0023AE25 /* aws-sample */,
+				EE1F0273227541FD0023AE25 /* aws-sampleTests */,
+				EE1F027E227541FD0023AE25 /* aws-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1F025E227541FB0023AE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F026E227541FC0023AE25 /* LaunchScreen.storyboard in Resources */,
+				EE1F026B227541FC0023AE25 /* Assets.xcassets in Resources */,
+				EE1F0269227541FB0023AE25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F0272227541FD0023AE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F027D227541FD0023AE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1F025C227541FB0023AE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F0266227541FB0023AE25 /* ViewController.swift in Sources */,
+				EE1F0264227541FB0023AE25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F0270227541FD0023AE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F0279227541FD0023AE25 /* aws_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F027B227541FD0023AE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F0284227541FD0023AE25 /* aws_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE1F0276227541FD0023AE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1F025F227541FB0023AE25 /* aws-sample */;
+			targetProxy = EE1F0275227541FD0023AE25 /* PBXContainerItemProxy */;
+		};
+		EE1F0281227541FD0023AE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1F025F227541FB0023AE25 /* aws-sample */;
+			targetProxy = EE1F0280227541FD0023AE25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE1F0267227541FB0023AE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1F0268227541FB0023AE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1F026C227541FC0023AE25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1F026D227541FC0023AE25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1F0286227541FD0023AE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE1F0287227541FD0023AE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1F0289227541FD0023AE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1F028A227541FD0023AE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE1F028C227541FD0023AE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-sample.app/aws-sample";
+			};
+			name = Debug;
+		};
+		EE1F028D227541FD0023AE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aws-sample.app/aws-sample";
+			};
+			name = Release;
+		};
+		EE1F028F227541FD0023AE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-sample";
+			};
+			name = Debug;
+		};
+		EE1F0290227541FD0023AE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "aws-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.twentiethfloor.aws-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "aws-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1F025B227541FB0023AE25 /* Build configuration list for PBXProject "aws-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F0286227541FD0023AE25 /* Debug */,
+				EE1F0287227541FD0023AE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1F0288227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F0289227541FD0023AE25 /* Debug */,
+				EE1F028A227541FD0023AE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1F028B227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F028C227541FD0023AE25 /* Debug */,
+				EE1F028D227541FD0023AE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1F028E227541FD0023AE25 /* Build configuration list for PBXNativeTarget "aws-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F028F227541FD0023AE25 /* Debug */,
+				EE1F0290227541FD0023AE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1F0258227541FB0023AE25 /* Project object */;
+}
